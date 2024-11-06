@@ -57,11 +57,12 @@ Once prerequisites are installed, clone this repository and set up the project.
    - Push your changes to your GitHub repository.
    - The workflow defined in .github/workflows/playwright.yml will automatically execute the tests.
    - You can view the test results in the GitHub Actions tab, where logs, screenshots, and videos are available for debugging.
-   - 
+     
 ## Running Tests Locally
    - Ensure all dependencies are installed by running npm install in your terminal.
    - To execute all tests, run the following command:
    ```bash
    npx playwright test
 
+   - This will run the complete test suite. Results will be saved in the playwright-report and test-results folders.
 
