@@ -7,8 +7,9 @@ This project contains an automated end-to-end test suite for the [Sauce Labs Dem
 - [Prerequisites](#prerequisites)
 - [Setup Guide](#setup-guide)
 - [Installation](#installation)
-- [Running Tests](#running-tests)
 - [Project Structure](#project-structure)
+- [Running Tests](#running-tests)
+
 
 ## Prerequisites
 
@@ -40,11 +41,11 @@ Once prerequisites are installed, clone this repository and set up the project.
    ```bash
    npx playwright install
 
-## Running Tests
-   ```bash
-   npx playwright test tests/your-test-file.spec.js
+## Project Structure
+   - pageObjects/ – Contains the Page Object Model (POM) classes for each page on the Sauce Demo site.
+   - tests/ – Contains test files for different test cases.
+   - playwright.config.js – Configuration file for Playwright test settings.
 
 ## Running Tests
    ```bash
-   npx playwright test tests/your-test-file.spec.js
-
+   npx playwright test
