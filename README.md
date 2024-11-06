@@ -29,3 +29,9 @@ Once prerequisites are installed, clone this repository and set up the project.
    ```bash
    git clone https://github.com/your-username/sauce-demo-playwright-tests.git
    cd sauce-demo-playwright-tests
+
+2. **Install Dependencies:**:
+
+   ```bash
+   npm install
+
