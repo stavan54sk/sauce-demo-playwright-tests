@@ -41,10 +41,12 @@ Once prerequisites are installed, clone this repository and set up the project.
    npx playwright install
 
 ## Running Tests
-
-**To run the test suite, use the following command:**
-   ```bash
-   npx playwright test
 **If you want to run a specific test file, use:**
+
    ```bash
    npx playwright test tests/your-test-file.spec.js
+
+**To run the test suite, use the following command:**
+
+   ```bash
+   npx playwright test
