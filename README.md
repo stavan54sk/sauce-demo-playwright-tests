@@ -28,7 +28,7 @@ Once prerequisites are installed, clone this repository and set up the project.
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/sauce-demo-playwright-tests.git
+   git clone https://github.com/stavan54sk/sauce-demo-playwright-tests.git
    cd sauce-demo-playwright-tests
 
 2. **Install Dependencies:**:
