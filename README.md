@@ -42,11 +42,15 @@ Once prerequisites are installed, clone this repository and set up the project.
    npx playwright install
 
 ## Project Structure
-   - pageObjects/ – Contains the Page Object Model (POM) classes for each page on the Sauce Demo site.
-   - tests/ – Contains test files for different test cases.
-   - playwright.config.js – Configuration file for Playwright test settings.
-   - test-results/ - Folder for storing test execution results, including artifacts like screenshots and videos.
    - .github/playwright.yml - Configuration file to run the tests automatically on push or pull request events.
+   - pageObjects/ – Contains the Page Object Model (POM) classes for each page on the Sauce Demo site.
+   - playwright-report – Contains the HTML test report that is generated after the test run.
+   - test-results/ - Contains the execution results, including artifacts like screenshots and videos  after the test run.
+   - tests/ – Contains test files for different test cases.
+   - package.json – Configuration file for managing project dependencies, scripts, and configurations, enabling smooth automation and test execution through Playwright, as well as integrating with the CI/CD pipeline. 
+   - package-lock.json – Configuration file for dependency versions across different environments, providing a reliable and reproducible setup for all team members and CI/CD systems.
+   - playwright.config.js – Configuration file for Playwright test settings.
+  
    
 ## Running Tests
    ```bash
