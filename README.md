@@ -60,9 +60,9 @@ Once prerequisites are installed, clone this repository and set up the project.
      
 ## Running Tests Locally
    - Ensure all dependencies are installed by running npm install in your terminal.
-   - To execute all tests, run the following command:
+   - To execute all tests, run the following below command:
+   - This will run the complete test suite. Results will be saved in the playwright-report and test-results folders.
    ```bash
    npx playwright test
 
-   - This will run the complete test suite. Results will be saved in the playwright-report and test-results folders.
 
