@@ -8,7 +8,9 @@ This project contains an automated end-to-end test suite for the [Sauce Labs Dem
 - [Setup Guide](#setup-guide)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Running Tests](#running-tests)
+- [Running Tests in CI/CD Pipeline](#running-tests-in-cicd-pipeline)
+- [Running Tests Locally](#running-tests-locally)
+
 
 
 ## Prerequisites
@@ -50,8 +52,16 @@ Once prerequisites are installed, clone this repository and set up the project.
    - package.json – Configuration file for managing project dependencies, scripts, and configurations, enabling smooth automation and test execution through Playwright, as well as integrating with the CI/CD pipeline. 
    - package-lock.json – Configuration file for dependency versions across different environments, providing a reliable and reproducible setup for all team members and CI/CD systems.
    - playwright.config.js – Configuration file for Playwright test settings.
-  
-   
-## Running Tests
+
+## Running Tests in CI/CD Pipeline
+   - Push your changes to your GitHub repository.
+   - The workflow defined in .github/workflows/playwright.yml will automatically execute the tests.
+   - You can view the test results in the GitHub Actions tab, where logs, screenshots, and videos are available for debugging.
+   - 
+## Running Tests Locally
+   - Ensure all dependencies are installed by running npm install in your terminal.
+   - To execute all tests, run the following command:
    ```bash
    npx playwright test
+
+
